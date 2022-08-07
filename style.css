@@ -37,7 +37,9 @@ body{
 .btn:hover{
   background: radial-gradient(80.56% 102.82% at 8.54% 9.72%, rgba(255, 255, 255, 0.761) 0%, rgba(255, 255, 255, 0.06) 100%);
 }
-
+.btn:active{
+  border: 2px solid #D99CA7
+}
 .clear {
   width: 130px;
 }
@@ -59,5 +61,4 @@ body{
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
-  
 }
