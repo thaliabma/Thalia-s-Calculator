@@ -1,10 +1,105 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thalia's Calculator</title>
+    <title>Thalia's Calculadora</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <div class="conteudo">
+      <br />
+      <h1>Thalia's Calculator</h1>
+      <div class="calculadora">
+        <input
+          type="text"
+          class="form-control resultado"
+          placeholder="0"
+          disabled="disabled"
+        />
+        <div class="butoes">
+          <div class="row">
+            <button
+              type="button"
+              class="btn btn btn-lg clear font-weight-light"
+            >
+              C
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              /
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              x
+            </button>
+          </div>
+
+          <div class="row">
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              7
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              8
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              9
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              -
+            </button>
+          </div>
+
+          <div class="row">
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              4
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              5
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              6
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              +
+            </button>
+          </div>
+
+          <div class="row">
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              1
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              2
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              3
+            </button>
+            <button type="button" class="btn btn btn-lg enter">=</button>
+          </div>
+
+          <div class="row" style="margin-top: -60px">
+            <button type="button" class="btn btn zero btn-lg font-weight-light">
+              0
+            </button>
+            <button type="button" class="btn btn btn-lg font-weight-light">
+              .
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
